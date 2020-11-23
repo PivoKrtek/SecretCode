@@ -28,10 +28,6 @@ namespace GuessTheCode
                 while (!Code.CodeRevealed)
                 {
                     Console.Clear();
-                    for (int j = 0; j < Code.SecretCode.CodeList.Count; j++)
-                    {
-                        Console.Write($"{Code.SecretCode.CodeList[j].Number}");
-                    }
                     Screen.GameName();
                     Screen.Choices();
                     Screen.HiddenSecretCode();
